@@ -17,7 +17,7 @@
 ## General Information
 
 - This project concerns task no. 7 from the GoIT react.js module course.
-- Task goal: learnig how to using async function and create backend.
+- Task goal: learnig how to using async function and using beckend mockapi.io.
 - Main setup and functionality.
   - Form - here you can add new contact (name and phone-number).
   - The updated contact list is displayed below.
@@ -41,7 +41,8 @@ Project is created with:
 
 ## Screenshots
 
-![image](https://github.com/EmiliaWenta/goit-react-hw-04-phonebook/assets/126571469/6be9eb55-616a-49ab-a89c-396f9db00719)
+![image](https://github.com/EmiliaWenta/goit-react-hw-07-phonebook/assets/126571469/5b73f686-8112-47c4-be83-085a0f1c2cf9)
+
 
 ## Setup
 
