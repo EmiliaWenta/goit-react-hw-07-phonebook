@@ -1,0 +1,13 @@
+.filter__input {
+  width: 100%;
+  padding: 3% 10%;
+  font-size: 15px;
+  padding-left: 15px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+}
+.filter__title {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
