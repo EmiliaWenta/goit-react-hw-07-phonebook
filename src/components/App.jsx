@@ -19,17 +19,19 @@ export function App() {
 
   useEffect(() => {
     dispatch(fetchContacts());
-    // eslint-disable-next-line
-  }, []);
+   
+  }, [dispatch]);
 
-  if (error) return Notify.failure(`${error}`);
+  if (error) {
+    Notify.failure(`${error}`);
+    return <h1>Something went wrong, please try reloaded page...</h1>;
+  }
 
   return (
     <div className={css.container}>
       <h1 className={css.header}>Phonebook</h1>
       <Form />
       <h2 className={css.header}>Contacts</h2>
-
       <Filter />
       <ContactList />
       {isLoading && <Loader />}
